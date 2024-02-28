@@ -16,7 +16,14 @@
     "escape"
   ],
   "author": "Lily Skye <me@suchipi.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suchipi/suchipi-string-utils.git"
+  },
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "prettier": "^3.2.5",
     "typescript": "^5.3.3",
