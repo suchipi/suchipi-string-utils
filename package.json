@@ -1,9 +1,9 @@
 {
   "name": "@suchipi/string-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of several functions which wrap or transform strings",
   "main": "dist/index.js",
-  "types": "src/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && mkdir dist && tsc && rm -rf dist/*.test.*",
     "test": "vitest"
