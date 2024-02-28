@@ -1,7 +1,7 @@
 {
   "name": "@suchipi/string-utils",
   "version": "1.0.0",
-  "description": "String styling and quoting functions",
+  "description": "A collection of several functions which wrap or transform strings",
   "main": "dist/index.js",
   "types": "src/index.d.ts",
   "scripts": {
