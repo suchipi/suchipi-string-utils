@@ -1,0 +1,31 @@
+{
+  "name": "@suchipi/string-utils",
+  "version": "1.0.0",
+  "description": "String styling and quoting functions",
+  "main": "dist/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && tsc && rm -rf dist/*.test.*",
+    "test": "vitest"
+  },
+  "keywords": [
+    "ansi",
+    "terminal",
+    "color",
+    "quote",
+    "escape"
+  ],
+  "author": "Lily Skye <me@suchipi.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vitest": "^1.3.1"
+  },
+  "dependencies": {
+    "kleur": "^4.1.5",
+    "nice-path": "^2.0.0",
+    "string-dedent": "^3.0.1",
+    "strip-ansi": "^6.0.1"
+  }
+}
